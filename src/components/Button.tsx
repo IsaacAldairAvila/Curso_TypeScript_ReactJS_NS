@@ -1,7 +1,7 @@
 import React, { MouseEventHandler, ReactNode } from 'react'
 interface Props {
     children: ReactNode;
-    handleClick: MouseEventHandler
+    handleClick: MouseEventHandler,
 }
 const Button = ({ children, handleClick }: Props) => {
     return (
